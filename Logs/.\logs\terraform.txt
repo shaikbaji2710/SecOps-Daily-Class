@@ -1,0 +1,18 @@
+2026-09-16T13:26:58.480Z [INFO]  Terraform version: 1.16.2
+2026-09-16T13:26:58.481Z [DEBUG] using github.com/hashicorp/go-tfe v1.110.0
+2026-09-16T13:26:58.481Z [DEBUG] using github.com/hashicorp/hcl/v2 v2.24.0
+2026-09-16T13:26:58.481Z [DEBUG] using github.com/hashicorp/terraform-svchost v0.2.1
+2026-09-16T13:26:58.481Z [DEBUG] using github.com/zclconf/go-cty v1.18.1
+2026-09-16T13:26:58.481Z [INFO]  Go runtime version: go1.26.4
+2026-09-16T13:26:58.481Z [INFO]  CLI args: []string{"terraform", "init"}
+2026-09-16T13:26:58.481Z [TRACE] Stdout is a terminal of width 210
+2026-09-16T13:26:58.481Z [TRACE] Stderr is a terminal of width 210
+2026-09-16T13:26:58.481Z [TRACE] Stdin is a terminal
+2026-09-16T13:26:58.481Z [DEBUG] Attempting to open CLI config file: /root/.terraformrc
+2026-09-16T13:26:58.481Z [DEBUG] File doesn't exist, but doesn't need to. Ignoring.
+2026-09-16T13:26:58.481Z [DEBUG] ignoring non-existing provider search directory terraform.d/plugins
+2026-09-16T13:26:58.481Z [DEBUG] ignoring non-existing provider search directory /root/.terraform.d/plugins
+2026-09-16T13:26:58.481Z [DEBUG] ignoring non-existing provider search directory /root/.local/share/terraform/plugins
+2026-09-16T13:26:58.481Z [DEBUG] ignoring non-existing provider search directory /usr/local/share/terraform/plugins
+2026-09-16T13:26:58.481Z [DEBUG] ignoring non-existing provider search directory /usr/share/terraform/plugins
+2026-09-16T13:26:58.483Z [INFO]  CLI command args: []string{"init"}
