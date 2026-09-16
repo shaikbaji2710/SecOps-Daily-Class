@@ -5,12 +5,10 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "workspace-lab3"
-    key            = "workspace.statefile"
-    region         = "us-east-1"
-    dynamodb_table = "dynamodb-state-locking"
-    use_lockfile = true
-     encrypt        = true
+    bucket = "workspace-lab3"
+    key    = "workspace.statefile"
+    region = "us-east-1"
+
   }
 }
 
